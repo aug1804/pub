@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box; /* tamanho leva em consideração o padding */
+}
+
+body {
+    background-color: #151629; /* determina a cor de fundo de um elemento */
+    font-family: 'Lato', Arial, Helvetica, sans-serif; /* determina o tipo de fonte */
+    /*width: 800px;*/
+}
+
+.geral {
+   /*border: 1px solid green;*/
+   width: 720px;
+   margin: 0 auto; /* macete para deixar elementos block centralizados */
+   margin-top: 0px;
+   padding-top:    50px;
+   padding-bottom: 50px;
+   padding-left:   150px;
+   padding-right:  150px;
+
+}
+
+.conteudo {
+    width: 100%;
+    display: inline-block;
+}
+
+h2 {
+    color: #Df5945;
+    font-size: 32px;
+    margin-left: 0px;
+    margin-right: 0px;
+    text-align: center;
+    width: 100%;
+}
+
+h1 {
+    color: rgb(236,236,236);
+    font-size: 45px;
+    text-align: center;
+    /*text-transform: uppercase;*/ /*define alguma mudança na própria fonte. Valores possíveis: lowercase, uppercase, capitalize */
+}
+
+p {
+    color: rgb(180,180,180);
+    font-size: 25px;
+    margin-bottom: 10px;
+    text-align: center;  
+}
+
+img {
+    /*
+    position: fixed;
+    float: right;
+    position: relative;
+     */
+    width: 100%;
+}
+
+.imagem {
+    display: inline-block;
+    margin-top: -30px;
+    margin-left: 340px;
+    width: 30%;
+    /*
+    float: right;
+    margin-right: -200px;
+    margin-bottom: 50px;
+    */
+}
+
+.imagem2 {
+    /*
+    display: inline-block;
+    margin: 0 auto;
+    margin-top: 0px;
+    margin-left: 100px;
+    */
+    margin-left: 240px;
+    margin-right: auto;
+    width: 100%;
+}
+
+a {
+    /* define algum tipo de decoração no texto. Valores: overline, line-through, underline, underline overline */
+    text-decoration: none; 
+}
+
+.u-margin-small {
+    margin: 5px;
+}
